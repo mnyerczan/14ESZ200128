@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    background-color: #f5f5f5;
+}
+label{
+    font-size: 12px;
+    display: block;
+}
+
+/*-----------------------------*/
+.main-header{
+    padding: 20px;
+    background-color: #000;
+}
+.main-header a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.main{
+    width: 80%;
+    margin: 50px auto;
+}
+.add-fieldset{
+    width: 20%;
+    height: 200px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 30px;
+}
+/*------------------------*/
+/* photo */
+.photo-container {
+    width: 1500px;
+    margin: 50px auto;
+    display: table;
+}
+.photo-img {
+    width: calc( 3 * 400px );
+    height: calc( 2 * 400px );
+    float: left;
+}
+.form-section {  
+    background-color: #222;  
+    width: 200px;
+    height: 700px;
+    float: right;
+    padding: 50px; 
+    color: white; 
+}
+.form-section input[type="text"] {
+    width: 100%;
+}
+.form-section label {
+    font-size: 10px;
+    margin-bottom:5px ;
+}
+.btn {
+    padding: 4px 10px;
+    margin: 10px 0;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+.btn-green {
+    background-color: #090;
+}
+.btn-green, .btn-warning {
+    color: white;
+    font-weight: bold;
+}
+.btn-green:hover, .btn-warning:hover {
+    color: #ddd;
+}
+.btn-warning {
+    background-color: darkred;
+}
+.title {
+    padding: 20px 0;
+}
